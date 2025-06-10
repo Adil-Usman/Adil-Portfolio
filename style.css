@@ -56,7 +56,11 @@ a {
 a:hover {
   color: white;
 }
-button:hover {
+.mr {
+  text-align: center;
+  font-size: 3rem;
+}
+.orange:hover {
   background-color: black;
   border: 2px solid white;
   color: white;
@@ -114,5 +118,10 @@ input {
   }
   input {
     width: 250px;
+  }
+}
+@media (max-width: 600px) {
+  .mr {
+    font-size: 1.5rem;
   }
 }
