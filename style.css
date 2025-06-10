@@ -31,6 +31,7 @@ nav {
 .left1 p {
   font-size: 2rem;
   font-family: sans-serif;
+  margin-top: 15px;
 
   background: -webkit-linear-gradient(gold, #3a3838);
   -webkit-background-clip: text;
@@ -48,9 +49,16 @@ nav {
   border-radius: 10px;
   text-transform: capitalize;
   color: black;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.orange img {
+  border-radius: 50%;
+  width: 20px;
 }
 a {
-  color: black;
+  color: rgb(5, 100, 134);
   text-decoration: none;
 }
 a:hover {
@@ -122,6 +130,88 @@ input {
 }
 @media (max-width: 600px) {
   .mr {
+    font-size: 1.5rem;
+  }
+}
+.container img {
+  width: 200px;
+  border-radius: 50%;
+}
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.cont {
+  width: 100%;
+  background-color: #3a3838;
+  padding-top: 50px;
+}
+.container h1 {
+  background: -webkit-linear-gradient(rgb(160, 92, 238), #fffdfd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5rem;
+}
+.text p {
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+.hub {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(to right, rgb(214, 9, 255), rgb(2, 2, 2));
+  border-radius: 10px;
+}
+.git {
+  padding: 10px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, rgb(214, 9, 255), rgb(2, 2, 2));
+
+  font-size: 1.2rem;
+}
+.git:hover {
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(to right, gold, rgb(0, 0, 0));
+}
+.hub:hover {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(to right, gold, rgb(0, 0, 0));
+}
+@media (max-width: 776px) {
+  .container h1 {
+    font-size: 3rem;
+  }
+  .text p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 555px) {
+  .text p {
+    font-size: 0.8rem;
+  }
+  .container h1 {
+    font-size: 2rem;
+  }
+  .hub {
+    padding: 5px;
+    height: 10px;
+  }
+  .git {
+    padding: 0px;
+    border: none;
+    height: 0px;
+  }
+}
+@media (max-width: 470px) {
+  .container img {
+    width: 100px;
+  }
+  .text p {
+    font-size: 0.6rem;
+  }
+  .container h1 {
     font-size: 1.5rem;
   }
 }
