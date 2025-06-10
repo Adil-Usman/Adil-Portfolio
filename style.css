@@ -54,8 +54,10 @@ nav {
   gap: 5px;
 }
 .orange img {
-  border-radius: 50%;
   width: 20px;
+  border-radius: 80%;
+}
+.fast {
 }
 a {
   color: rgb(5, 100, 134);
