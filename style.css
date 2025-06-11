@@ -217,3 +217,17 @@ input {
     font-size: 1.5rem;
   }
 }
+section {
+  padding: 30px;
+  background-image: linear-gradient(to right, rgb(74, 35, 92), rgb(19, 18, 18));
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  height: 700px;
+}
+@media (max-width: 610px) {
+  section {
+    font-size: 0.7rem;
+    height: 500px;
+  }
+}
