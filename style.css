@@ -231,6 +231,38 @@ section {
 @media (max-width: 610px) {
   section {
     font-size: 0.7rem;
-    height: 400px;
+    height: 350px;
   }
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(57, 178, 194), white);
+}
+.envelop {
+  display: flex;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+.co {
+  display: flex;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+.co p {
+  transition: all 0.5s;
+}
+.co p:hover {
+  color: white;
+  scale: 1.1;
+}
+.envelop p {
+  transition: all 0.5s;
+}
+.envelop p:hover {
+  color: white;
+  scale: 1.1;
 }
